@@ -5,85 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanilla Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <div id="menu-bar" class="fas fa-bars" role="navigation" aria-label="Main Menu"></div>
+
   <header>
+    <a href="./index.html" class="logo" aria-label="Go to vanilla homepage logo">vanilla.</a>
     <nav class="navbar">
-      <div class="logo-header">
-        <a href="./index.html" class="" aria-label="vannila">vanilla.</a>
-      </div>
+      <ul aria-label="main navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
     </nav>
   </header>  
+
+
   <main>
-    <section class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <h1 class="title">FrontEnd Challenges</h1>
-          <p class="sub-text">A list of the front-end projects built with HTML, CSS, CSS frameworks like bootstrap, SASS and vanilla JavaScript.</p>
-        </div>
+    <section class="home" id="home">
+      <div class="content">
+        <h1 class="title">Welcome Developers</h1>
+        <p class="description">At the present, I'm working with some amazing technologies on pretty cool projects thanks to Frontend Mentor. In this process, I also get a pretty deep understanding of some frameworks and technologies which is pretty awesome.</p>
+        <a href="#projects" class="btn">Explore Projects</a>
+      </div>
+      <div class="image">
+        <img src="./images/illustration.jpg" alt="">
       </div>
     </section>
 
-    <section class="projects">
-      <h2 class="projects-title">Projects</h2>
-      <div class="project-wrapper">
-        <a href="" class="project-cards">
-          <div class="card">
-            <img src="./images/Baby.png" alt="project-image">
-            <h2 class="card-title">Interactive card details form</h2>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptatum.</p>
-            <p class="date">June 10, 2022</p>
-          </div>
-        </a>
-
-        <a href="" class="project-cards">
-          <div class="card">
-            <img src="./images/Baby.png" alt="project-image">
-            <h2 class="card-title">Interactive card details form</h2>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptatum.</p>
-            <p class="date">June 10, 2022</p>
-          </div>
-        </a>
-
-        <a href="" class="project-cards">
-          <div class="card">
-            <img src="./images/Baby.png" alt="project-image">
-            <h2 class="card-title">Interactive card details form</h2>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptatum.</p>
-            <p class="date">June 10, 2022</p>
-          </div>
-        </a>
-
-        <a href="" class="project-cards">
-          <div class="card">
-            <img src="./images/Baby.png" alt="project-image">
-            <h2 class="card-title">Interactive card details form</h2>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, voluptatum.</p>
-            <p class="date">June 10, 2022</p>
-          </div>
-        </a>
-
-        <a href="" class="project-cards">
-          <div class="card">
-            <img src="./images/Baby.png" alt="project-image">
-            <h2 class="card-title">Interactive card details form</h2>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, assumenda!</p>
-            <p class="date">June 10, 2022</p>
-          </div>
-        </a>
-
-        <a href="" class="project-cards">
-          <div class="card">
-            <img src="./images/Baby.png" alt="project-image">
-            <h2 class="card-title">Interactive card details form</h2>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, assumenda!</p>
-            <p class="date">June 10, 2022</p>
-          </div>
-        </a>
+    <section class="about" id="about">
+      <div class="image">
+        <img src="./images/web-dev.jpg" alt="">
       </div>
+      <div class="content">
+        <h2 class="title">This is Personal</h2>
+        <p class="description">I'm a front-end web developer with a fair amount of experience. Being eight months into this industry, I seriously felt stuck in this imposter syndrome and constant feeling of inadequacy. I've decided I'm done feeling that way. So with the help of the challenges in frontend mentor, I'm going to defeat that mentally. The projects feature HTML, CSS, SASS, BootStrap, Tailwind, an some Vanilla JavaScript. Ultimately I just want to have fun and enjoy doing what I love doing.</p>
+        <a href="#projects" class="btn">Explore Projects</a>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="head">
+        <h3 class="title">My Projects</h3>
+        <p class="text">You know nothing CSS. Just start with the small stuff, like a simple blog or landing page. Build your confidence by creating simple landing pages or websites that demonstrate your ability. It's just like riding a bike – the more you do it, the better you'll get.</p>
+      </div>
+      <div class="box-container">
+        <div class="box">
+            <img src="./images/Baby.png" alt="">
+            <div class="content">
+                <h3>project 01</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Baby.png" alt="">
+            <div class="content">
+                <h3>project 02</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+       
+        <div class="box">
+            <img src="./images/Baby.png" alt="">
+            <div class="content">
+                <h3>project 03</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Baby.png" alt="">
+            <div class="content">
+                <h3>project 04</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Baby.png" alt="">
+            <div class="content">
+                <h3>project 05</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./images/Baby.png" alt="">
+            <div class="content">
+                <h3>project 06</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+
+    </div>
     </section>
   </main>
-  <footer></footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
